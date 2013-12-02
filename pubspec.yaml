@@ -1,0 +1,58 @@
+name: polymer_elements_examples
+version: 0.0.13
+authors: 
+- Erik Grimes <erik.grimes@gmail.com>
+- Günter Zöchbauer <guenter@gzoechbauer.com>
+description: >
+  The examples of the Dart port of polymer-elements and polymer-ui-elements 
+  (https://github.com/Polymer/polymer-elements).
+homepage: https://github.com/ErikGrimes/polymer_elements
+documentation: http://erikgrimes.github.io/polymer_elements/docs/index.html
+environment:
+  sdk: ">=1.0.0 <2.0.0"
+dependencies:
+  polymer: ">=0.9.0 < 2.0.0"
+  polymer_elements:
+    path: ../polymer_elements
+  polymer_ui_elements: 
+    path: ../polymer_ui_elements
+dev_dependencies:
+  unittest: any
+transformers:
+- polymer:
+    entry_points:
+    - web/polymer_ui_accordion.html
+    - web/polymer_ui_animated_pages.html
+    - web/polymer_ui_arrow.html
+    - web/polymer_ui_breadcrubs.html
+    - web/polymer_ui_card.html
+#    - web/polymer_ui_clock.html
+    - web/polymer_ui_collapsible.html
+#    - web/polymer_ui_dark_theme.html
+    - web/polymer_ui_field.html
+    - web/polymer_ui_icon.html
+    - web/polymer_ui_icon_button.html
+#    - web/polymer_ui_iconset.html
+#    - web/polymer_ui_light_theme.html
+#    - web/polymer_ui_line_chart.html
+    - web/polymer_ui_menu.html
+    - web/polymer_ui_menu_button.html
+    - web/polymer_ui_menu_button_parallax.html
+    - web/polymer_ui_menu_item.html
+    - web/polymer_ui_nav_arrow.html
+#    - web/polymer_ui_overlay.html
+    - web/polymer_ui_pages.html
+    - web/polymer_ui_ratings.html
+    - web/polymer_ui_scaffold.html
+    - web/polymer_ui_sidebar.html
+    - web/polymer_ui_sidebar_header.html
+    - web/polymer_ui_sidebar_menu.html
+    - web/polymer_ui_splitter.html
+#    - web/polymer_ui_stock.html
+    - web/polymer_ui_submenu_item.html
+    - web/polymer_ui_tabs.html
+#    - web/polymer_ui_theme_aware.html
+    - web/polymer_ui_toggle_button.html
+    - web/polymer_ui_toolbar.html
+#    - web/polymer_ui_weather.html
+
